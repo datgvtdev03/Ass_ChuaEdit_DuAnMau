@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/btn_aleart.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_arrow_drop_down_circle_24.xml" value="0.198" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/custom_loai_sach.xml" value="0.42777455647786455" />
+        <entry key="app/src/main/res/layout/custom_phieu_muon.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/custom_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/custom_thanh_vien.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/custom_top.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_add_loai_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_add_phieu_muon.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_add_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_add_thanh_vien.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_delete_loai_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_delete_phieu_muon.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_delete_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_delete_tv.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_log_out.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_update_loai_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_update_phieu_muon.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_update_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_update_tv.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_add_user.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_change_pass.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_doanh_thu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_loai_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_phieu_muon.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_sach.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_thanh_vien.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_top.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/header_drawer_app.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/loai_sach_item_spinner.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/loai_sach_item_spinner_drop.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/sach_item_spinner.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/sach_item_spinner_drop.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/thanh_vien_item_spinner.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/thanh_vien_item_spinner_drop.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/menu_drawer.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

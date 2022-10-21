@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E2ECEA"
+    android:padding="8dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logofpt" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_username"
+        app:startIconDrawable="@drawable/icon_user"
+        app:endIconMode="clear_text"
+        android:hint="Tên đăng nhập"
+        app:hintTextColor = "@color/text_btn"
+        android:textColorHint = "@color/text_btn"
+        app:boxStrokeColor = "@color/text_btn"
+        app:errorEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_password"
+        app:startIconDrawable="@drawable/icon_pass"
+        app:endIconMode="password_toggle"
+        app:errorEnabled="true"
+        android:hint="Mật khẩu"
+        app:hintTextColor = "@color/text_btn"
+        app:boxStrokeColor = "@color/text_btn"
+        android:textColorHint = "@color/text_btn">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/notifi_accout"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        app:buttonTint = "@color/text_btn"
+        android:id="@+id/check_remember_pass"
+        android:text="Lưu mật khẩu"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/btn_login"
+            app:backgroundTint="@color/text_btn"
+            android:id="@+id/btn_login"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:textColor="@color/white"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            />
+    </LinearLayout>
+</LinearLayout>
